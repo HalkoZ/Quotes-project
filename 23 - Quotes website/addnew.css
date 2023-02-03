@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url("bus.jpg");
+  background-size: cover;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 9px;
+}
+
+button {
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  background-image: url("rocks.jpg");
+  background-size: cover;
+  border: 2px solid rgb(151, 196, 196);
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(240, 231, 231);
+  box-shadow: 15px 15px 20px 10px rgba(1, 5, 12, 0.862);
+  cursor: pointer;
+}
+
+input {
+  padding: 15px;
+  width: 40%;
+  border: 2px solid rgb(151, 196, 196);
+  border-radius: 10px;
+  background-image: url("rocks.jpg");
+  background-size: cover;
+  background-position: bottom;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(240, 231, 231);
+  box-shadow: 15px 15px 20px 10px rgba(1, 5, 12, 0.862);
+}
+
+::placeholder {
+  color: rgb(240, 231, 231);
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+}
